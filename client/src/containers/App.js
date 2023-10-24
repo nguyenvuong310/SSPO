@@ -5,6 +5,7 @@ import { ConnectedRouter as Router } from "connected-react-router";
 import { history } from "../redux";
 import { ToastContainer } from "react-toastify";
 import HomePageStudent from "../containers/Student/homepage";
+import HomePageAdmin from "../containers/Officer/homepage";
 import {
   userIsAuthenticated,
   userIsNotAuthenticated,
@@ -64,6 +65,7 @@ class App extends Component {
                     path={path.HOMEPAGESTUDENT}
                     component={HomePageStudent}
                   />
+                  <Route path={path.HOMEPAGEADMIN} component={HomePageAdmin} />
 
                   {/* <Route path={path.HOMEPAGE} component={HomePage} /> */}
                 </Switch>
