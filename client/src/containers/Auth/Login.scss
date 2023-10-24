@@ -1,0 +1,175 @@
+// .login-background {
+//   height: 100vh;
+//   background-color: #eeeeee;
+
+//   .login-container {
+//     margin-top: 10px;
+//     padding: 0 150px;
+//     // height: 100%;
+
+//     height: 480px;
+//     .login-header {
+//       height: 70px;
+//       background-color: #210f7a;
+//       font-size: 13px;
+//       color: white;
+//       display: flex;
+//       .logo {
+//         padding: 8px;
+//       }
+//       .login-title {
+//         display: inline-block;
+//         font-weight: bold;
+//         font-size: 2em;
+//         margin-left: 20px;
+//         margin-top: 20px;
+//         vertical-align: top;
+//       }
+//     }
+//     .login-body {
+//       height: 340px;
+//       display: flex;
+//       background-color: white;
+//       border-radius: 10px;
+//       .login-form {
+//         border-radius: 8px;
+//         margin: 10px;
+//         height: 310px;
+//         width: 36%;
+//         background-color: #eeeeee;
+//         .changePass {
+//           margin-left: 5px;
+//           margin-top: 5px;
+//         }
+//         .login-button {
+//           margin-top: 5px;
+
+//           .login,
+//           .clear {
+//             background-color: #006dcc;
+//             color: white;
+//           }
+//           .login {
+//             margin: 0 6px;
+//           }
+//         }
+//         .login-form-body {
+//           border-bottom: 1px solid #dddddd;
+//           border-top: 1px solid #dddddd;
+//           margin: 0 10px;
+//           .login-input {
+//             outline: none !important;
+//           }
+//           .login-warning {
+//             display: flex;
+
+//             #warn {
+//               margin-bottom: 4px;
+//             }
+//             .accesskey {
+//               font-size: 10px !important;
+//               padding-left: 8px;
+//             }
+//           }
+//           .custom-input-password {
+//             position: relative;
+//             i {
+//               position: absolute;
+//               right: 9px;
+//               top: 10px;
+//               cursor: pointer;
+//             }
+//           }
+//         }
+//         .login-text {
+//           font-size: 1.4em;
+//           font-weight: bold;
+//           padding-bottom: 10px;
+
+//           margin: 8px 0px;
+//           margin-left: 22px;
+
+//           color: #990033;
+//         }
+
+//         label {
+//           display: block;
+//           color: #777777;
+//           font-size: 107.692%;
+//           font-weight: bold;
+//         }
+//       }
+//       .login-note {
+//         width: 64%;
+//         padding: 0 15px;
+//         .note-language,
+//         .note-pls,
+//         .tech-sp {
+//           font-size: 1.2em;
+//           font-weight: bold;
+//           color: #990033;
+//           margin-top: 1.2em;
+//         }
+//         ul {
+//           padding-left: 0 !important;
+//         }
+//         li {
+//           display: inline-block;
+//           padding: 0px 10px;
+//         }
+//         .first {
+//           border-right: 1px solid #e2e2e2;
+//         }
+//       }
+//     }
+//   }
+// }
+.home-background {
+  background-color: #e3e7ea;
+  height: 100vh;
+
+  .home-container {
+    width: 460px;
+    // height: 100%;
+    margin: auto; //can giua
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    height: 559px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .home-content {
+      padding: 10px;
+      .logoBK {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+        .logobk {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+      .login-divider {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        border-top: 1px solid #dee2e6;
+      }
+      .login-iden {
+        .login-heading {
+          font-size: 18px !important;
+          margin-bottom: 10px;
+          font-weight: 600;
+        }
+        .login-with {
+          border: 1px solid #dee2e6;
+          font-size: 0.9375rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
