@@ -12,7 +12,7 @@ class HomePageStudent extends Component {
       folderId: "",
     };
   }
-  componentDidMount() {}
+  componentDidMount() { }
   createFolder = async () => {
     const url = `${process.env.REACT_APP_API_URL}/drive/createFolder`;
     const { data } = await axios.get(url, { withCredentials: true });
@@ -25,7 +25,7 @@ class HomePageStudent extends Component {
   render() {
     return (
       <>
-        <div> toi la student</div>
+        <div> TU HAO TOI LA SINH VIEN BACH KHOA</div>
         <button onClick={() => this.createFolder()}>Create Folder</button>
         <UpLoadFile folderId={this.state.folderId} />
       </>

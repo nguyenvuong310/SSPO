@@ -31,6 +31,8 @@ class FileUpload extends Component {
       data: formData,
       withCredentials: true,
     });
+
+    alert('tHANH CONG ROI')
   };
 
   render() {
